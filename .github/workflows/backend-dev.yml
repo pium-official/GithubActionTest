@@ -13,7 +13,8 @@ defaults:
   run:
     working-directory: backend/demo
 
-permissions: write-all
+permissions:
+  pull-requests: write
 
 jobs:
   build:
