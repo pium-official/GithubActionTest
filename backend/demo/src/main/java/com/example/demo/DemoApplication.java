@@ -8,9 +8,6 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         System.out.println("DemoApplication.main");
-        System.out.println("args = " + args);
-        System.out.printf("dfdfsafsdfsaf");
-        System.out.println("pium");
         SpringApplication.run(DemoApplication.class, args);
     }
 
