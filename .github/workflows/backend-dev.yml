@@ -13,9 +13,7 @@ defaults:
   run:
     working-directory: backend/demo
 
-permissions:
-    contents: read
-    checks: write
+permissions: write-all
 
 jobs:
   build:
